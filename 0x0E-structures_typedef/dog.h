@@ -1,9 +1,9 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 /**
-  * struct dog - it is a new type
-  * @name: the name of poppy
-  * @age: the age
+  * struct dog - the new types
+  * @name: the name of the poppy
+  * @age: it's age
   * @owner: the owner
   */
 struct dog
@@ -12,6 +12,7 @@ struct dog
 	float age;
 	char *owner;
 };
+
 /* a new type */
 typedef struct dog dog_t;
 
