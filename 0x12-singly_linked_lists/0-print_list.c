@@ -1,5 +1,5 @@
-#include "lists.h"
 #include <stdio.h>
+#include "lists.h"
 /**
  * print_list - it prints all the elements of the linked lists
  * @h: a pointer to the list_t list to print
@@ -22,6 +22,3 @@ size_t print_list(const list_t *h)
 
 	return (s);
 }
-
-
-
